@@ -1,9 +1,6 @@
 body {
     background-color: rgb(218, 213, 213);
     text-align: center;
-    margin-top: 18rem
-    overflow: hidden;
-    backgroud-size: cover;
 }
 
 .content {
@@ -16,6 +13,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 1rem;
     filter:drop-shadow(0 0 15px black);
+    
 }
 
 .welcome {
@@ -120,7 +118,7 @@ button {
 
 .logo {
     position: relative;
-    bottom: 5rem;
+    bottom: -2rem;
     filter:drop-shadow(0 0 15px black);
 }
 
@@ -137,8 +135,8 @@ button {
 
 
 .background img {
-        width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: block;
 }
